@@ -1,0 +1,75 @@
+.home {
+  background-color: #eceff1;
+  width: 100%;
+  height: 600px;
+}
+
+.home__toolbar {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.home__search {
+  display: inline-flex;
+}
+
+.home__msj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.home__error {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin-top: 0px !important;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  height: 50px !important;
+  min-height: 0px !important;
+}
+
+.home__input {
+  position: relative;
+  margin: 0;
+  padding: 4px;
+  border: none;
+  outline: 0;
+  box-sizing: border-box;
+  vertical-align: middle;
+  background-color: #f5f7f8;
+  border-radius: 8px;
+}
+.home__input:hover {
+  background-color: #eceff1;
+  cursor: pointer;
+}
+
+.home__half_filter {
+  display: contents;
+  width: 50%;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 7px !important;
+}
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 8px 16px !important;
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  .home__half_filter {
+    display: contents;
+    width: 100%;
+  }
+
+  .css-15v22id-MuiAccordionDetails-root{
+    display: grid;
+  }
+
+}

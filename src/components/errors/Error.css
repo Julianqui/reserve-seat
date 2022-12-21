@@ -1,0 +1,9 @@
+.text__error{
+    color: rgb(248, 30, 30);
+    padding: 15px;
+    border: 2px solid rgb(248, 30, 30);
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 800;
+    position: absolute;
+}

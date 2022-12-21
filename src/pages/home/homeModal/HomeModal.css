@@ -1,0 +1,103 @@
+p{
+  margin: 0px;
+}
+
+.modalContainer {
+  min-width: 330px;
+  margin: 15px auto auto 15px;
+  width: 20%;
+  height: 60%;
+  background-color: rgb(255, 255, 255);
+  overflow-wrap: break-word;
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 6%) 0px 1px 12px, rgb(0 0 0 / 15%) 0px 1px 3px;
+  z-index: 100;
+}
+.modalHeader {
+  background-color: #0e1924;
+  padding: 10px;  
+  color: white;
+  text-align: center;
+}
+
+.modalBody {
+  padding: 16px;
+}
+
+.time {
+  margin: 0;
+  text-align: center;
+}
+
+.selectedChair {
+  font-family: Larsseit, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  background: transparent;
+  border-radius: 8px;
+  padding: 6px 2px;
+  color: rgb(78, 98, 117);
+  border: 1px solid rgb(210, 218, 225);
+  text-align: center;
+}
+.emptyDeskContainer{
+  /* display: inline-flex; */
+}
+
+.available{
+  color: #11c262;
+  margin-right: 3px;
+}
+.unavailable{
+  color: #ee3335;
+  margin-right: 3px;
+}
+
+.reserved{
+  color: #fc0;
+  margin-right: 3px;
+}
+
+.inlineText{
+  display: inline-flex;
+}
+
+.deskOwner{
+  width: 100%;
+  /* margin-top: 10px; */
+  margin-bottom: 5px; 
+  display: block;
+}
+
+.deskReserved{
+  border-radius: 8px;
+  border: 1px solid rgb(210, 218, 225);
+  width: 60%;
+  margin: auto;
+  padding: 6px;
+  padding-top: 4px;
+}
+
+.deskReservedTitle{
+  font-size: 9px;
+  display: flex;
+}
+
+.avatarContainer{
+  float: left;
+}
+
+.reservedText{
+  width: 100%;
+  display: block;
+}
+
+.buttonReserved{
+  margin: 2px !important;
+  background-color: #ff6961 !important;
+}
+.buttonReservedBorder{
+  margin: 2px !important;
+  color: #ff6961 !important;
+  border-color: #ff6961 !important;
+}
